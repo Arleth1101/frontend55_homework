@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+p,
+header,
+main,
+section,
+aside,
+footer {
+    display: flex;
+}
+
+header {
+    justify-content: center;
+    font-weight: bolder;
+    background-color: silver;
+    padding: 20px;
+}
+
+main {
+    flex-grow: 1;
+    flex-flow: row;
+    background-color: rgb(249, 247, 227);
+    font-weight: bolder;
+    margin: auto 0;
+}
+
+.flexleft {
+    display: flex;
+    flex-basis: 75%;
+    flex-flow: column;
+
+}
+.flexleftbottom {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row wrap;
+    width: 100%;
+    align-content: flex-end;
+}
+
+h3 {
+    margin: 50px 50px 80px 50px;
+}
+
+.flexp {
+    flex-grow: 1;
+    background-color: rgb(247, 245, 99);
+    font-weight: bolder;
+    justify-content: center;
+    padding: 50px;
+    margin: 10px 10px 10px 10px;
+    height: 25px;
+}
+
+.flexp3 {
+    background-color: rgb(247, 245, 99);
+    font-weight: bolder;
+    justify-content: center;
+    padding: 50px;
+    margin: 10px 10px 10px 10px;
+    flex-basis: 100%;
+    height: 25px;
+}
+
+.aside {
+    flex-grow: 1;
+    justify-content: center;
+    font-weight: bolder;
+    background-color: honeydew;
+    flex-basis: 25%;
+}
+
+footer {
+    background-color: silver;
+    flex-flow: row;
+}
+
+.section {
+    flex-grow: 1;
+    background-color: white;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px;
+}
