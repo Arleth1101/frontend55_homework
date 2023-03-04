@@ -1,1 +1,1 @@
-# frontend55_homework
+Homeworks for the ITGIRLS Frontend course.
